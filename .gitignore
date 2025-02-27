@@ -1,0 +1,57 @@
+# 🚫 Ignorar entornos virtuales
+*.venv/
+*.env/
+*venv/
+*env/
+
+
+
+# 🚫 Archivos generados por Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🚫 Archivos de logs y caché
+*.log
+*.sqlite3
+
+# 🚫 Archivos de configuración o de entorno
+.env
+*.env
+
+# 🚫 Archivos de IDEs y editores (como VSCode, PyCharm)
+.vscode/
+.idea/
+*.code-workspace
+
+*.swp
+*.swo
+
+# 🚫 Archivos de cobertura de pruebas
+htmlcov/
+*.cover
+.coverage
+*.pycoverage
+.cache/
+nosetests.xml
+coverage.xml
+
+# 🚫 Archivos empaquetados
+*.egg-info/
+dist/
+build/
+
+# 🚫 Archivos de Docker (si usas Docker)
+.dockerignore
+
+# 🚫 Archivos de Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# 🚫 Archivos de dependencias de PIPENV o Poetry (opcional)
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# 🚫 Archivos generados por compiladores (Cython, etc.)
+*.o
+*.so
